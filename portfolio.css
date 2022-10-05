@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(Img/bg-imge\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 3% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-size: 25px;
+}
+
+.nav-menu{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 12px;
+    position: relative;
+
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.nav-menu ul li a::after {
+    content: '';
+    
+    height: 5px;
+    background-color: black;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: -5px;
+    /* transition: .8s; */
+}
+.nav-menu ul li a:hover::after{
+    
+   width: 100%;
+}
+
+.jahed{
+    width: 30%;
+    position: absolute;
+    top: 12%;
+    left: 60%;
+    transform: translate(25%; -25%);
+}
+.jahid{
+    width: 90%;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 70px;
+
+}
+.jahid h1{
+    font-size: 60px;
+}
+.jahid p{
+    font-size: 18px;
+    color: white;
+    margin: 10px 0px 10px;
+}
+
+.jahid a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 13px 30px;
+
+
+}
+.jahid a:hover{
+    background: black;
+    border: none;
+    border-radius: 10px;
+}
+.aa{
+    color: aqua;
+}
